@@ -18,7 +18,8 @@
 
 <section class="section">
   <h2 id="total"></h2>
-  <a href="#" class="cta">Proceed to Checkout</a>
+  <button class="cta" onclick="checkout()">Proceed to Secure Checkout</button>
+
 </section>
 
 <script src="js/cart.js"></script>
@@ -54,6 +55,8 @@ if (cart.length === 0) {
 document.getElementById("total").innerText =
   "Total: $" + total.toFixed(2);
 </script>
+<script src="https://js.stripe.com/v3/"></script>
+<script src="js/checkout.js"></script>
 
 </body>
 </html>
