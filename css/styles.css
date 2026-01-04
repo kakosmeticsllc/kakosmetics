@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #F6F1EB;
+  color: #3E2A24;
+}
+
+.hero {
+  background: linear-gradient(rgba(124,154,142,0.85), rgba(124,154,142,0.85));
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta {
+  background: #EFE6DA;
+  color: #3E2A24;
+  padding: 14px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+  background: #EFE6DA;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4B2E2A;
+}
+
+.section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  padding: 40px;
+}
+
+.features div {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.soft-bg {
+  background: #EFE6DA;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  font-size: 0.9rem;
+}
+
+/* MOBILE OPTIMIZATION */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+}
