@@ -19,4 +19,3 @@ const products = [
   }
   // (We’ll expand to all 25 after everything works)
 ];
-
