@@ -27,7 +27,10 @@ products.forEach(p => {
     <div>
       <h3>${p.name}</h3>
       <p>$${p.price}</p>
-      <button onclick='addToCart(${JSON.stringify(p)})'>Add to Cart</button>
+      <button onclick='addToCart(${JSON.stringify(p)}); window.location="cart.html"'>
+  Add to Cart
+</button>
+
     </div>
   `;
   container.appendChild(div);
