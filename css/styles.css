@@ -1,0 +1,50 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #F6F1EB;
+  color: #3E2A24;
+}
+
+header {
+  background: #7C9A8E;
+  padding: 40px;
+  text-align: center;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+  background: #EFE6DA;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4B2E2A;
+  font-weight: 500;
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+.product {
+  background: white;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+button {
+  background: #7C9A8E;
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
